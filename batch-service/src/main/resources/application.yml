@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.37.63:3306/tbatch?serverTimezone=GMT%2B8
+    username: baseuser
+    password: iDsS@bAseDb2OI9
+  batch:
+    initialize-schema: always
